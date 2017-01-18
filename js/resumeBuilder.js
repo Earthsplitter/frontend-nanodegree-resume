@@ -80,7 +80,7 @@ var bio = {
         $("#header").prepend(formattedRole,formattedName,formattedBiopic,formattedWelcome,HTMLskillsStart);
         this.skills.forEach(function (skill) {
             $("#skills").append(HTMLskills.replace("%data%",skill));
-        })
+        });
     }
 };
 
@@ -127,7 +127,7 @@ var education = {
             var formattedOnlineDates = HTMLonlineDates.replace("%data%",course.dates);
             var formattedURL = HTMLonlineURL.replace("%data%",course.url);
             $(".education-entry:last").append(formattedTitleSchool,formattedOnlineDates,formattedURL);
-        })
+        });
 
     }
 };
