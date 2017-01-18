@@ -128,3 +128,5 @@ work.display();
 projects.display();
 bio.display();
 education.display();
+
+$("#mapDiv").append(googleMap);
