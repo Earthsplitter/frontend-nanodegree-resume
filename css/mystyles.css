@@ -4,3 +4,13 @@
     margin-left: calc(50% - 15vmax);
 }
 
+body {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
